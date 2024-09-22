@@ -4,6 +4,7 @@ import com.aditya.project.structural.adapter.model.RoundPeg;
 import com.aditya.project.structural.adapter.model.SquarePeg;
 
 public class SquarePegAdapter extends RoundPeg {
+
     private final SquarePeg peg;
 
     public SquarePegAdapter(SquarePeg peg) {

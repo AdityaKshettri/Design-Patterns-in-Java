@@ -1,6 +1,7 @@
 package com.aditya.project.structural.adapter.model;
 
 public class RoundHole {
+
     private final double radius;
 
     public RoundHole(double radius) {

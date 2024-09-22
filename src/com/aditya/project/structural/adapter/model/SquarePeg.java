@@ -1,6 +1,7 @@
 package com.aditya.project.structural.adapter.model;
 
 public class SquarePeg {
+
     private final double length;
 
     public SquarePeg(double length) {
