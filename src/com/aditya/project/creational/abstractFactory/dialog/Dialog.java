@@ -1,14 +1,14 @@
-package com.aditya.project.creational.abstractFactory.app;
+package com.aditya.project.creational.abstractFactory.dialog;
 
 import com.aditya.project.creational.abstractFactory.button.Button;
 import com.aditya.project.creational.abstractFactory.checkbox.Checkbox;
 import com.aditya.project.creational.abstractFactory.factory.GUIFactory;
 
-public class Application {
+public class Dialog {
     private final Button button;
     private final Checkbox checkbox;
 
-    public Application(GUIFactory factory) {
+    public Dialog(GUIFactory factory) {
         button = factory.createButton();
         checkbox = factory.createCheckbox();
     }
